@@ -6,8 +6,8 @@ RUN apt-get update && \
     apt-get install -y ca-certificates wget && \
     rm -rf /var/lib/apt/lists/*
 
-RUN wget https://minergate.com/download/deb-cli && \
-    dpkg -i deb-cli
+RUN wget https://minergate.com/download/deb-cli 
+RUN dpkg -i deb-cli
     
 ENV USER princessshilpa2016@gmail.com
 ENV COIN -bcn
