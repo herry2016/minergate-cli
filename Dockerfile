@@ -12,4 +12,4 @@ RUN wget https://minergate.com/download/deb-cli && \
 ENV USER princessshilpa2016@gmail.com
 ENV COIN -bcn
 
-CMD minergate-cli -user $USER $COIN
+ENTRYPOINT minergate-cli -user $USER $COIN
