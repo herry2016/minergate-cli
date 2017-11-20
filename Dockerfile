@@ -13,3 +13,5 @@ ENV USER princessshilpa2016@gmail.com
 ENV COIN -bcn
 
 ENTRYPOINT minergate-cli -user $USER $COIN
+CMD echo "Hello world" -p 8080
+
